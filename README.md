@@ -1,4 +1,4 @@
-# 🧠 Hybrid Lite-Gated Transformer for Chest X-ray Classification
+# Hybrid Lite-Gated Transformer for Chest X-ray Classification
 
 This project implements a hybrid deep learning model combining a **CNN (ResNet-18)** and a **Lite-Gated Transformer** for classifying chest X-ray images into:
 
@@ -9,13 +9,13 @@ The model captures both **local spatial features** and **global contextual relat
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Chest X-ray analysis is widely used for pneumonia detection. This project builds an automated system using a hybrid architecture that improves classification by combining CNN feature extraction with Transformer-based attention.
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 Input Image (224×224)  
 → ResNet-18 (CNN Backbone)  
@@ -27,7 +27,7 @@ Input Image (224×224)
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ├── hybrid_lgt_cnn.py      # Main training code (CNN + Transformer)  
 ├── ablation_study.py      # Ablation study code  
@@ -35,7 +35,7 @@ Input Image (224×224)
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Total Images: 5,863  
 - Classes: Normal, Pneumonia  
@@ -43,7 +43,7 @@ Input Image (224×224)
 
 ---
 
-## ⚙️ Training Configuration
+## Training Configuration
 
 - Framework: PyTorch  
 - Image Size: 224 × 224  
@@ -55,7 +55,7 @@ Input Image (224×224)
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric     | Value  |
 |------------|--------|
@@ -65,7 +65,7 @@ Input Image (224×224)
 | F1 Score   | 0.88   |
 | ROC-AUC    | 0.9688 |
 
-### 🔍 Key Observations
+### Key Observations
 
 - Pneumonia Recall ≈ 0.99 (very high detection rate)  
 - Some false positives (acceptable in medical screening)  
@@ -73,7 +73,7 @@ Input Image (224×224)
 
 ---
 
-## 🧪 Ablation Study
+## Ablation Study
 
 | Model      | Accuracy |
 |------------|----------|
@@ -89,7 +89,7 @@ Input Image (224×224)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone repository  
 git clone <your-repo-link>  
@@ -106,7 +106,7 @@ python ablation_study.py
 
 ---
 
-## 📊 Outputs
+## Outputs
 
 Running the code will generate:
 
@@ -119,7 +119,7 @@ Running the code will generate:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Small validation set causes metric fluctuations  
 - Higher false positives for Normal class  
@@ -127,7 +127,7 @@ Running the code will generate:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Improve class balance handling  
 - Apply threshold tuning  
@@ -136,11 +136,11 @@ Running the code will generate:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Omkar Jha  
 UPES | SAP ID: 500119757  
 
 ---
 
-## ⭐ If you found this useful, consider giving a star!
+## If you found this useful, consider giving a star!
